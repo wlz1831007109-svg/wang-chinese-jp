@@ -20,9 +20,12 @@
     .path-section{background:#f3eee5}.path-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.path-card{padding:26px;background:var(--white);border-radius:10px;border:1px solid var(--line)}.path-icon{width:44px;height:44px;display:grid;place-items:center;border-radius:50%;background:var(--red-soft);color:var(--red);font-family:var(--serif);font-weight:700;font-size:18px}.path-card h3{font-family:var(--serif);font-size:18px;margin:16px 0 7px}.path-card p{font-size:12px;color:var(--muted);line-height:1.9;margin:0}.step{font-size:10px;letter-spacing:.12em;color:#a58b6a;font-weight:800}
     .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.about-image{position:relative}.about-image img{display:block;width:100%;border-radius:12px;box-shadow:var(--shadow)}.about-image:before{content:"";position:absolute;inset:-12px 14px 14px -12px;border:1px solid var(--gold);border-radius:14px;z-index:-1}.about-copy h2{font-family:var(--serif);font-size:34px;line-height:1.5;margin:12px 0 18px}.about-copy p{color:var(--muted);font-size:13px;line-height:2}.principles{display:grid;gap:12px;margin-top:22px}.principle{display:flex;gap:12px;align-items:flex-start;font-size:12px}.principle b{color:var(--red);font-family:var(--serif);font-size:16px}.principle span{color:#615951}
     .closing{padding:0 0 88px}.closing-box{position:relative;overflow:hidden;background:var(--red);color:white;border-radius:16px;padding:48px 50px;display:flex;justify-content:space-between;align-items:center;gap:25px}.closing-box:after{content:"你好";position:absolute;right:18%;top:-50px;font-family:var(--serif);font-weight:800;font-size:155px;color:rgba(255,255,255,.08)}.closing-box .section-kicker{color:#efc181}.closing-box h2{font-family:var(--serif);font-size:30px;line-height:1.5;margin:8px 0}.closing-box p{font-size:12px;color:#f0d9cf;margin:0}.closing-box .button{position:relative;z-index:1;background:#fff7ed;color:var(--red);box-shadow:none;white-space:nowrap}.closing-box .button:hover{background:white}
+    .tone-list{border-top:1px solid var(--line);margin-top:18px}.tone-row{display:grid;grid-template-columns:78px 1fr 56px 34px;align-items:center;gap:10px;border-bottom:1px solid var(--line);padding:9px 0}.tone-row b{font-size:11px;color:var(--red)}.tone-mark{font-size:11px;color:var(--muted)}.tone-row strong{font-family:var(--serif);font-size:19px}.lesson-sheet{margin-top:25px;padding:30px;background:var(--white);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}.sheet-top{display:flex;align-items:center;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line);padding-bottom:15px;margin-bottom:20px}.sheet-top h3{font-family:var(--serif);font-size:22px;margin:4px 0 0}.print-button{background:transparent;border:1px solid var(--red);border-radius:99px;padding:9px 15px;color:var(--red);font-size:11px;font-weight:700;cursor:pointer}.print-button:hover{background:var(--red);color:white}.sheet-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}.sheet-grid>div{padding:16px;background:var(--paper);border-radius:9px}.chinese-line{font-family:var(--serif);font-weight:700;font-size:21px;margin:8px 0 3px}.chinese-line .sound{margin-left:8px;vertical-align:middle}.sheet-jp{font-size:12px;color:var(--muted);margin:0}.dialogue{margin-top:16px;border-left:3px solid var(--gold);padding:3px 0 3px 17px;font-size:13px}.dialogue>b{color:var(--red)}.dialogue p{margin:7px 0}.dialogue small{color:var(--muted);font-size:11px}
+    @media print{header,.topline,.ticker,.hero,.path-section,.about-grid,.closing,footer,.print-button,.backtop{display:none!important}body{background:white}.section{padding:0}.lesson-sheet{box-shadow:none;border:0;padding:0}.lesson-sheet,.tone-list,.tone-row,.sheet-grid>div{break-inside:avoid}.lesson-sheet{margin-top:0}.practice-aside{background:#fff;padding:0}.practice-aside:after{display:none}.practice{display:block}.quiz-card{box-shadow:none;padding:12px 0}.sound{display:none}}
     footer{border-top:1px solid var(--line);padding:28px 0 34px;color:var(--muted);font-size:10px}.footer-inner{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer-brand{font-weight:800;color:var(--ink);font-size:12px}.footer-note{max-width:580px;text-align:right}.backtop{position:fixed;right:20px;bottom:20px;width:42px;height:42px;border-radius:50%;background:var(--white);border:1px solid var(--line);color:var(--red);display:grid;place-items:center;box-shadow:var(--shadow);opacity:0;pointer-events:none;transition:.2s;z-index:10}.backtop.show{opacity:1;pointer-events:auto}
     @media(max-width:850px){.wrap{width:min(100% - 36px,680px)}.nav{height:68px}.nav-links{gap:17px}.nav-links a{font-size:12px}.hero{padding:48px 0 60px}.hero-grid{gap:35px;grid-template-columns:1.05fr .95fr}.hero-copy{font-size:14px}.floating-label{left:-12px}.section{padding:72px 0}.lesson-card{padding:19px}.practice{gap:25px}.about-grid{gap:35px}.closing-box{padding:38px}}
     @media(max-width:640px){.wrap{width:calc(100% - 32px)}.nav{height:62px}.brand{font-size:13px}.brand-mark{width:34px;height:34px}.nav-cta{display:none}.menu-toggle{display:block}.nav-links{display:none;position:absolute;left:0;right:0;top:62px;background:var(--paper);padding:16px 24px 20px;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start;gap:14px}.nav-links.open{display:flex}.hero{padding:38px 0 45px}.hero-grid{grid-template-columns:1fr;gap:27px}.hero h1{font-size:34px;margin-top:12px}.hero-copy{font-size:13px}.hero-actions{gap:16px;flex-wrap:wrap;margin-top:22px}.hero-note{margin-top:19px}.hero-visual{width:min(390px,88%);margin:0 auto;padding:0 0 18px}.poster-frame{border-width:6px}.seal{width:63px;height:63px;font-size:10px;right:-14px}.floating-label{left:-15px;padding:10px 13px}.floating-label strong{font-size:16px}.ticker{font-size:12px}.section{padding:58px 0}.section-head{display:block;margin-bottom:23px}.section-intro{margin-top:12px}.lesson-grid,.path-grid{grid-template-columns:1fr}.lesson-card{min-height:auto}.practice{grid-template-columns:1fr;gap:20px}.practice-aside{padding:25px}.practice-aside h2{font-size:24px}.quiz-card{padding:22px}.choices{grid-template-columns:1fr}.about-grid{grid-template-columns:1fr;gap:30px}.about-image{width:90%;margin:0 auto}.about-copy h2{font-size:28px}.closing{padding-bottom:58px}.closing-box{display:block;padding:30px 24px}.closing-box h2{font-size:24px}.closing-box .button{margin-top:21px}.closing-box:after{right:-8px;font-size:110px}.footer-inner{display:block}.footer-note{text-align:left;margin-top:9px}}
+    @media(max-width:640px){.lesson-sheet{padding:20px}.sheet-grid{grid-template-columns:1fr}.tone-row{grid-template-columns:70px 1fr 45px 34px}.tone-mark{font-size:10px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
   </style>
 </head>
@@ -34,9 +37,9 @@
         <span class="brand-mark">中</span><span>日本語話者のための中国語教室<small>CHINESE, THROUGH JAPANESE</small></span>
       </a>
       <nav class="nav-links" id="navLinks" aria-label="メインナビゲーション">
-        <a href="#lesson">ミニレッスン</a><a href="#path">学び方</a><a href="#about">教室について</a>
+        <a href="#path">学習ルート</a><a href="#lesson">第1課</a><a href="#about">教室について</a>
       </nav>
-      <a class="nav-cta" href="#lesson">今日のミニレッスン <span aria-hidden="true">↗</span></a>
+      <a class="nav-cta" href="#lesson">第1課を始める <span aria-hidden="true">↗</span></a>
       <button class="menu-toggle" id="menuToggle" aria-label="メニューを開く" aria-expanded="false">☰</button>
     </div>
   </header>
@@ -45,10 +48,10 @@
       <div class="wrap hero-grid">
         <div>
           <div class="eyebrow">日本語話者のための中国語教室</div>
-          <h1>日本語の感覚から、<br><em>自然な中国語</em>へ。</h1>
-          <p class="hero-copy">日本語をそのまま置き換えると、少し不自然になることがあります。ことばの違いを手がかりに、伝わる中国語を一緒に見つけていきましょう。</p>
-          <div class="hero-actions"><a class="button" href="#lesson">ミニレッスンを試す <span aria-hidden="true">↓</span></a><a class="text-link" href="#path">この教室の学び方を見る</a></div>
-          <div class="hero-note"><span>中</span>文法も会話も、日本語との違いからやさしく解説</div>
+          <h1>ピンインから始める、<br><em>ゼロからの中国語</em>。</h1>
+          <p class="hero-copy">発音・基本の文・日常会話へ。日本語との違いを手がかりに、最初の一歩から順番に学べるコースです。</p>
+          <div class="hero-actions"><a class="button" href="#path">学習ルートを見る <span aria-hidden="true">↓</span></a><a class="text-link" href="#lesson">第1課を体験する</a></div>
+          <div class="hero-note"><span>零</span>中国語が初めての方を対象にした入門コース</div>
         </div>
         <div class="hero-visual">
           <div class="poster-frame"><img src="assets/classroom-poster.jpeg" alt="一緒に学ぼう。日本語話者のための中国語教室の案内" fetchpriority="high"></div>
@@ -57,37 +60,55 @@
         </div>
       </div>
     </section>
-    <div class="ticker" aria-label="学習テーマ"><span>日本語から考える中国語</span><b>✳</b><span>会話で使える表現</span><b>✳</b><span>違いがわかる文法</span><b>✳</b><span>日本語から考える中国語</span></div>
+    <div class="ticker" aria-label="学習内容"><span>発音とピンイン</span><b>✳</b><span>基本文型</span><b>✳</b><span>日常会話</span><b>✳</b><span>日本語話者のための中国語</span></div>
 
-    <section class="section difference" id="lesson">
+    <section class="section difference" id="path">
       <div class="wrap">
-        <div class="section-head"><div><div class="section-kicker">01 / MINI LESSON</div><h2>「日本語のまま」だと<br>迷いやすい表現。</h2></div><p class="section-intro">日本語と中国語は、似ているところも違うところもあります。短い例文で、使い分けの感覚をつかみましょう。</p></div>
-        <div class="lesson-grid">
-          <article class="lesson-card"><span class="card-num">LESSON 01</span><h3>「雨が止んだ」</h3><p>中国語では「雨＋止む」ではなく、動詞を先に置いて言います。</p><span class="mini-label">自然な言い方</span><div class="phrase"><div><strong>雨停了</strong><small>yǔ tíng le</small></div><button class="sound" data-say="雨停了" aria-label="雨停了の発音を聞く">▶</button></div></article>
-          <article class="lesson-card"><span class="card-num">LESSON 02</span><h3>「映画を見たことがある」</h3><p>経験を伝えるときは「了」ではなく「过」を使う形があります。</p><span class="mini-label">経験を表す</span><div class="phrase"><div><strong>我看过这部电影</strong><small>wǒ kàn guo zhè bù diànyǐng</small></div><button class="sound" data-say="我看过这部电影" aria-label="我看过这部电影の発音を聞く">▶</button></div></article>
-          <article class="lesson-card"><span class="card-num">LESSON 03</span><h3>「もう一度言ってください」</h3><p>丁寧にお願いしたいとき、会話でそのまま使えるひとこと。</p><span class="mini-label">会話で使える</span><div class="phrase"><div><strong>请再说一遍</strong><small>qǐng zài shuō yí biàn</small></div><button class="sound" data-say="请再说一遍" aria-label="请再说一遍の発音を聞く">▶</button></div></article>
+        <div class="section-head"><div><div class="section-kicker">COURSE ROADMAP / ゼロからの学習順</div><h2>最初の音から、<br>自分で話せるところまで。</h2></div><p class="section-intro">学習段階を小さく分け、基礎を積み上げます。まずは発音と短い自己紹介から始めます。</p></div>
+        <div class="path-grid">
+          <article class="path-card"><span class="step">UNIT 01 · はじめの一歩</span><div class="path-icon">拼</div><h3>発音・ピンイン</h3><p>声調、母音と子音、ピンインの読み方。聞き分けと発音練習から始めます。</p></article>
+          <article class="path-card"><span class="step">UNIT 02 · 基本文</span><div class="path-icon">句</div><h3>語順と基本文型</h3><p>「私は学生です」「これは本です」など、主語・述語・疑問文の形を学びます。</p></article>
+          <article class="path-card"><span class="step">UNIT 03 · 身近な会話</span><div class="path-icon">话</div><h3>自己紹介・日常表現</h3><p>名前、出身、家族、時間、買い物。短い会話で使える言葉を増やします。</p></article>
+          <article class="path-card"><span class="step">UNIT 04 · 文を広げる</span><div class="path-icon">文</div><h3>助詞・量詞・否定</h3><p>「不」と「没」、量詞、場所や時間の表現を学び、自分の文を作ります。</p></article>
+          <article class="path-card"><span class="step">UNIT 05 · 出来事を話す</span><div class="path-icon">时</div><h3>進行・経験・完了</h3><p>「在」「过」「了」などを、場面と会話の流れに沿って使い分けます。</p></article>
+          <article class="path-card"><span class="step">UNIT 06 · 次の段階へ</span><div class="path-icon">进</div><h3>読解・聞き取り・表現</h3><p>少し長い文や会話に挑戦。学んだ語彙と文法を組み合わせて伝えます。</p></article>
         </div>
       </div>
     </section>
 
-    <section class="section">
-      <div class="wrap practice">
-        <div class="practice-aside"><div class="section-kicker">TRY IT / 01</div><h2>一問だけ、<br>やってみよう。</h2><p>日本語の意味から、中国語で自然な言い方を選んでみましょう。答えを選ぶと、ポイントが表示されます。</p></div>
-        <div class="quiz-card" id="quiz">
-          <div class="quiz-top"><b>ミニクイズ</b><span>所要時間：約20秒</span></div>
-          <h3>「雨が止んだ」はどれ？</h3><p class="prompt">「雨がもう止んだ」と伝えるときの表現を選んでください。</p>
-          <div class="choices" role="group" aria-label="回答を選ぶ">
-            <button class="choice" data-correct="false"><span>A</span>雨下停了</button>
-            <button class="choice" data-correct="true"><span>B</span>雨停了</button>
+    <section class="section" id="lesson">
+      <div class="wrap">
+        <div class="section-head"><div><div class="section-kicker">UNIT 01 / LESSON 01</div><h2>第1課：声調と<br>あいさつを学ぼう。</h2></div><p class="section-intro">このページを、入門教材の第1課として使えるようにしました。まずは声調を知り、あいさつを声に出してみましょう。</p></div>
+        <div class="practice">
+          <div class="practice-aside"><div class="section-kicker">今日のゴール</div><h2>四つの声調を<br>聞いて、まねる。</h2><p>中国語は、音の高さの動きで意味が変わることがあります。最初は完璧を目指さず、上がる・下がるなどの動きをまねてみましょう。</p></div>
+          <div class="quiz-card">
+            <div class="quiz-top"><b>発音メモ · mā</b><span>声調のイメージ</span></div>
+            <h3>同じ「ma」でも、音の動きが変わる</h3>
+            <div class="tone-list">
+              <div class="tone-row"><b>第一声</b><span class="tone-mark">高く、まっすぐ</span><strong>mā</strong><button class="sound" data-say="妈" aria-label="mā の発音を聞く">▶</button></div>
+              <div class="tone-row"><b>第二声</b><span class="tone-mark">低めから上がる</span><strong>má</strong><button class="sound" data-say="麻" aria-label="má の発音を聞く">▶</button></div>
+              <div class="tone-row"><b>第三声</b><span class="tone-mark">低くおさえる</span><strong>mǎ</strong><button class="sound" data-say="马" aria-label="mǎ の発音を聞く">▶</button></div>
+              <div class="tone-row"><b>第四声</b><span class="tone-mark">高いところから下げる</span><strong>mà</strong><button class="sound" data-say="骂" aria-label="mà の発音を聞く">▶</button></div>
+            </div>
+            <div class="answer">声調の説明は練習の目安です。実際の高さは話者や文中の位置で変化します。</div>
           </div>
-          <div class="answer" id="answer" aria-live="polite">選んでみてください。中国語では「止む」を <b>停 tíng</b> と言います。</div>
+        </div>
+        <div class="lesson-sheet">
+          <div class="sheet-top"><div><span class="mini-label">第1課 · 学習資料</span><h3>あいさつと自己紹介</h3></div><button class="print-button" onclick="window.print()">印刷 / PDF保存</button></div>
+          <div class="sheet-grid">
+            <div><span class="step">01 · あいさつ</span><p class="chinese-line">你好。 <button class="sound" data-say="你好" aria-label="你好の発音を聞く">▶</button></p><p class="sheet-jp">こんにちは。まずは音声を聞いて、声に出してみましょう。</p></div>
+            <div><span class="step">02 · 名前を言う</span><p class="chinese-line">我叫王。 <button class="sound" data-say="我叫王" aria-label="我叫王の発音を聞く">▶</button></p><p class="sheet-jp">私は王です。〈我叫＋名前〉で「私の名前は〜です」。</p></div>
+            <div><span class="step">03 · 出身を言う</span><p class="chinese-line">我是日本人。 <button class="sound" data-say="我是日本人" aria-label="我是日本人の発音を聞く">▶</button></p><p class="sheet-jp">私は日本人です。〈我是＋名詞〉で「私は〜です」。</p></div>
+            <div><span class="step">04 · 会話をつなぐ</span><p class="chinese-line">你呢？ <button class="sound" data-say="你呢" aria-label="你呢の発音を聞く">▶</button></p><p class="sheet-jp">あなたは？ 相手にも同じことを聞くときに使えます。</p></div>
+          </div>
+          <div class="dialogue"><b>会話練習</b><p>A：你好！我叫王。我是日本人。你呢？</p><p>B：你好！我叫山田。</p><small>自分の名前に入れ替えて、二人で練習しましょう。</small></div>
         </div>
       </div>
     </section>
 
-    <section class="section path-section" id="path">
+    <section class="section path-section" id="approach">
       <div class="wrap">
-        <div class="section-head"><div><div class="section-kicker">02 / HOW TO LEARN</div><h2>わかる、使える、身につく。</h2></div><p class="section-intro">丸暗記だけに頼らず、日本語話者がつまずきやすいポイントを一つずつ整理します。</p></div>
+        <div class="section-head"><div><div class="section-kicker">HOW EACH LESSON WORKS</div><h2>一課ずつ、使える形に。</h2></div><p class="section-intro">毎回「聞く・しくみを知る・自分で言う」の順で練習します。</p></div>
         <div class="path-grid">
           <article class="path-card"><span class="step">STEP 01</span><div class="path-icon">比</div><h3>違いに気づく</h3><p>日本語では自然でも、中国語では別の形になる。語順や言葉の選び方を比べて、理由を見つけます。</p></article>
           <article class="path-card"><span class="step">STEP 02</span><div class="path-icon">理</div><h3>しくみをつかむ</h3><p>例文を使って、文法をやさしく整理。文の形と意味がどうつながるかを理解します。</p></article>
